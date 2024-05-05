@@ -1,0 +1,9 @@
+{
+  "name": "gm-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for my college project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch ."
+  }
+}
