@@ -61,6 +61,7 @@ const message = fullFlag[flag] || shortFlag[flag];
 
 if (!message) {
   console.log("Opção inválida, -h ou --help para mais informações.");
+  console.log(options);
   process.exit(1);
 }
 
